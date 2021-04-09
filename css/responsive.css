@@ -1,0 +1,354 @@
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+    /* Menu Part Start */
+    .navbar {
+        padding-top: 25px;
+    }
+
+    .collapse button {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 8px;
+    }
+
+    .navbar-nav {
+        background: #282828;
+    }
+
+    .navbar-nav {
+        background: #282828;
+    }
+    .nav-item .nav-link {
+        padding-top: 0.5rem!important;
+        padding-bottom: 0.5rem!important;
+        
+    }
+    .nav-item .nav-link:hover {
+        background: #744fa0;
+        color: #ffffff!important;
+    }
+    .nav-item .nav-link::after{
+        display: none;
+    }
+    .nav-item {
+        margin-left: 0;
+    }
+
+    .nav-item a {
+        font-weight: 500;
+    }
+
+    .navbar-nav {
+        padding-top: 5px;
+        padding-bottom: 50px;
+    }
+    /* Menu Part End */
+
+    /* About Part Start */
+    #about {
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+
+    /* About Part End */
+
+    /* Feature Part Start */
+    .global_eather h3 {
+        padding-top: 0;
+        padding-bottom: 15px;
+    }
+    .global_eather p {
+        width: 500px;
+        text-align: right;
+        margin-left: auto;
+    }
+    /* Feature Part End */
+
+    /* Screenshots Part Start */
+    .screenshots_header {
+        padding-bottom: 10px;
+    }
+    .screenshots_slider .slick-dots {
+        padding-top: 0;
+    }
+    /* Screenshots Part End */
+
+    /* Price Part Start */
+    .pricing_item {
+        margin-bottom: 40px;
+    }
+    /* Price Part End */
+
+    /* Video Part Start */
+    .vedio_header {
+        padding-top: 40px;
+    }
+    /* Video Part End */
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    /* Menu Part Start */
+  
+
+    .navbar-nav {
+        padding-top: 5px;
+        padding-bottom: 50px;
+    }
+
+    /* Menu Part End */
+
+    /* Bennar Part Start */
+    .bennar_overly {
+        padding-top: 160px;
+        padding-bottom: 43px;
+    }
+
+    /* Bennar Part End */
+
+    /* About Part start */
+    #about {
+        padding-top: 0px;
+    }
+
+    /* About Part End */
+
+    /* Screenshots Part start */
+    #screenshots {
+        padding-top: 40px;
+    }
+
+    .screenshots_header {
+        padding-bottom: 10px;
+    }
+
+    .screenshots_slider .slick-dots {
+        padding-top: 0;
+    }
+
+    .vedio_header {
+        padding-top: 30px;
+    }
+
+    /* Screenshots Part End */
+
+    /* Video Part Star */
+    .vedio_overly {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    /* Video Part End */
+
+    /* Pricing Part Star */
+    #pricing {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .pricing_item {
+        margin-bottom: 40px;
+    }
+
+    /* Pricing Part End */
+
+    #get_in_touch {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* Menu part Start */
+    .navbar {
+        padding-top: 2px;
+        background: rgb(22, 20, 20);
+    }
+
+    /* Menu part End */
+
+    /* Bennar Menu part Start */
+    .bennar_overly {
+        padding-top: 96px;
+        padding-bottom: 70px;
+    }
+
+    .bennar_content h1 {
+        font-size: 40px;
+    }
+
+    .bennar_content h2 {
+        font-size: 20px;
+    }
+
+    .me {
+        font-size: 14px;
+        padding: 2px 2px;
+    }
+
+    .me i {
+        font-size: 20px;
+    }
+
+    .me .abl {
+        font-size: 15px;
+        font-weight: 400;
+        margin-left: 35px;
+        padding-top: 5px;
+    }
+
+    .me .str {
+        margin-left: 28px;
+        font-size: 16px;
+        margin-bottom: -3px;
+    }
+
+    .collapse button {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 8px;
+    }
+
+    .navbar-nav {
+        background: #282828;
+    }
+
+    .navbar-nav {
+        background: #282828;
+    }
+
+    .nav-item {
+        margin-left: 0;
+    }
+
+    .navbar-nav {
+        padding-top: 5px;
+        padding-bottom: 50px;
+    }
+
+    /*Bennar Menu part End */
+
+    /*About part Start */
+    #about {
+        padding-top: 0;
+        padding-bottom: 45px;
+        background: #ffffff;
+    }
+
+    /* About part End */
+
+    /*screenshot  part Start */
+    .slick-dots {
+        padding-top: 0px;
+    }
+
+    /* screenshot part End */
+
+    /* Vedio part Start */
+    .vedio_overly {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .vedio_header {
+        padding-top: 15px;
+    }
+
+    .vedio_overly .vedio_overly_icon i {
+        font-size: 50px;
+    }
+
+    /* Vedio part End */
+
+    /* Pricing part Start */
+    #pricing {
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+
+    .pricing_item {
+        margin-bottom: 40px;
+    }
+
+    /* Pricing part End */
+
+    /* Team part Start */
+    .awesome_team_header {
+        padding-bottom: 25px;
+    }
+
+    .team_item:hover {
+        margin-top: 0;
+    }
+
+    .team_content {
+        opacity: 1;
+    }
+
+    /* Team part End */
+
+    /* Feedback Part Start */
+    .feedback_header {
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .feedback_text h2 {
+        font-size: 16px;
+    }
+
+    .feedback_text p {
+        font-size: 13px;
+        padding: 0 5px;
+        padding-top: 8px;
+        padding-bottom: 3px;
+        line-height: 21px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .feedback_text h6::after {
+        left: 44%;
+    }
+
+    .feedback_img {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* Feedback Part End */
+
+
+    /* Footer part Start */
+    #footer {
+        background: #353535;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .footer_icon {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .footer_icon ul li {
+        width: 45px;
+        height: 45px;
+    }
+
+    .footer_icon ul li i {
+        line-height: 45px;
+    }
+
+    /* Footer part End */
+
+}
